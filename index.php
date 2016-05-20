@@ -17,12 +17,28 @@
         ),
         array(
             'name'=>'王娜娜',
-            'data'=>'11,25,5,28,17'
+            'data'=>'13,25,5,28,17'
+        ),
+        array(
+            'name'=>'王秀丽',
+            'data'=>'23,11,19,18,27'
+        ),
+        array(
+            'name'=>'桂绍彬',
+            'data'=>'21,14,5,17,37'
+        ),
+        array(
+            'name'=>'年美玲',
+            'data'=>'31,35,35,29,27'
+        ),
+        array(
+            'name'=>'杨吉凌',
+            'data'=>'15,35,5,18,37'
         )
     );
 
     $series = json_encode($seriesArr);
-echo $series;
+
 ?>
 <!DOCTYPE html>
 <html>
