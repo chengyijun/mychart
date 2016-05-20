@@ -88,14 +88,15 @@
 
                var ds = element.data.split(',');
 
-                for(var i=0;i<ds.length;i++){
-
-                    serobj.data.push(parseInt(ds[i]));
-                }
+                $.each(ds,function(p1,p2){
+                    serobj.data.push(parseInt(p2));
+                });
 
                 options.series.push(serobj);
             });
-            console.log(options.series);
+
+
+            //创建图表对象
             var charts = new Highcharts.Chart(options);
 
 
